@@ -37,4 +37,3 @@ How to contribute?
 6. Run/test the your steps before sending your contribution
 7. Once you're done just commit your changes & create a Pull Request
 
-

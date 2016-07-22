@@ -24,7 +24,7 @@ How it works?
 How to use?
 1. Hadoop verification scripts can run directly on any node where hadoop components are isntalled.
 2. Check config.txt file for required componets to be tested.
-3. Once permissions i.e. "chmod 777 *.sh" set run "./verification_script.sh"
+3. Once permissions i.e. "chmod 777 *.sh" set run "./verification_script.sh 2> out.txt"
 4. Verify summary result of verification scripts in output.txt.
 5. Verify detail output in case of any error in out.txt.
 

@@ -1,8 +1,8 @@
-echo "curl http://127.0.1.1:15000/" >> output.txt
+echo "sh /usr/hdp/current/falcon-client/bin/falcon-status" >> output.txt
 
-echo "curl http://127.0.1.1:15000/"
+echo "sh /usr/hdp/current/falcon-client/bin/falcon-status"
 
-curl http://127.0.1.1:15000/
+sh /usr/hdp/current/falcon-client/bin/falcon-status
 
 echo "---> Validation for Falcon Installation done successfully..."
 

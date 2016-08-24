@@ -105,6 +105,14 @@ then
     sh ./HDP18_KAFKA.sh
 fi
 
+if [ "$HDP20_FALCON" = "YES" ] || [ "$HDP20_FALCON" = "Y" ] ;
+then
+    echo "---> Start Validating Falcon Installation..."
+    echo "---> Start Validating Falcon Installation..." >> output.txt
+    sh ./HDP20_FALCON.sh
+fi
+
+
 if [ "$HDP21_ATLAS" = "YES" ] || [ "$HDP21_ATLAS" = "Y" ] ;
 then
     echo "---> Start Validating Atlas Installation..."
